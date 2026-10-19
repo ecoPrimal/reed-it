@@ -1,0 +1,15 @@
+TITLE: What happens when a charter school authorizer doesn't check criminal records?
+
+PRIMAL: hypothesis
+
+A superintendent with 9 criminal convictions — including 6 felonies — has been running publicly-funded charter schools in Detroit for over a decade.
+
+3% math proficiency. $4.9M in annual public funding. Two sitting judges chair his school boards.
+
+He responded to a documented investigation with a restraining order — filed the same day the State Board of Education had the evidence.
+
+I'm not a journalist. I'm a data scientist who built a 1,822-page public records database because nobody else was going to.
+
+detroit.primals.eco
+
+Every claim is cited to a public record you can verify yourself. Clone the repo. Check the sources. Share the signal.

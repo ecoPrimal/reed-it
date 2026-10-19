@@ -1,0 +1,17 @@
+PRIMAL: krogan
+
+I spent 5 years as a Clerical Technical Union member at Michigan State University. During that time I learned what institutional accountability looks like — and what it looks like when institutions fail.
+
+Today I'm publishing a public evidence library documenting a pattern I believe constitutes racketeering in Detroit charter schools.
+
+The superintendent has 9 criminal convictions including 6 felonies. His school reports 3% math proficiency. He receives $4.9M in annual public funding. 72.67% of revenue flows to his private management company.
+
+His response to a documented investigation? Not a correction. Not a defamation claim. A restraining order — filed the same day the State Board of Education had the evidence package.
+
+The investigation is 1,822 pages across two sites. 10,815 nodes. 16 million edges. 207 analysis articles. Every claim is cited to public records. Every document is git-verified and timestamped.
+
+The investigation is open source: detroit.primals.eco
+
+If you work in education, law, public policy, data science, or journalism — the evidence is there. Verify it yourself.
+
+#Education #PublicPolicy #DataScience #Accountability #Detroit #Michigan #OpenSource #CharterSchools

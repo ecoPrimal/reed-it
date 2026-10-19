@@ -1,0 +1,9 @@
+TITLE: The Desk in the Mountains — How a Living System Watches Over Public Money
+
+PRIMAL: tuebor
+
+The full article is live at tuebor.primals.eco/analysis/the-desk-in-the-mountains/
+
+31 services. 2-minute heartbeat. 1,822 pages. 10,815 nodes. A 2GB VPS watching over $4.9M in public education funding.
+
+This is how a phone on Starlink sees inside the membrane.

@@ -1,0 +1,21 @@
+TITLE: Show HN: Git-verified open-source investigation — 1,822 pages, 10,815 nodes, 16M edges
+
+PRIMAL: architecture
+
+I built an open-source public records investigation as a pair of Zola static sites served from a 2GB VPS.
+
+The investigation documents a charter school network in Detroit — a superintendent with 9 criminal convictions running $4.9M/year in publicly-funded schools, connected to judges and political figures.
+
+The technical infrastructure:
+- 2 Zola static sites: 1,822 pages total (1,199 tuebor + 623 detroit)
+- Git-verified: every page committed, timestamped, BLAKE3-hashed
+- Network graph: 10,815 nodes, 16M edges
+- 31 services on a membrane architecture (WireGuard mesh, Caddy, custom Python pipeline)
+- Structured data: JSON-LD on every page, llms.txt, sitemap, content manifest
+- 100% open: robots.txt allows all crawlers, AI agents, archives
+- License: CC-BY-SA-4.0 (content), AGPL-3.0 (code)
+
+Sites: detroit.primals.eco (evidence) and tuebor.primals.eco (analysis)
+Repo: github.com/defendDetroit/publicRecord
+
+What I'd like feedback on: the entity-relationship methodology and whether this kind of structured public records work has legs as a reproducible framework.
