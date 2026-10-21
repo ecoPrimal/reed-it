@@ -1,0 +1,22 @@
+TITLE: Show HN: Open-source tools for measuring extraction patterns in geographic data (Shannon entropy + sigmoid)
+
+We built tools to analyze an 11M-line codebase by measuring metabolic flow — who produces, who consumes, who extracts from captive dependents. Shannon entropy for information density, sigmoid classification for smooth boundaries, trigonometric projection for directional analysis.
+
+The tools found that 58.6% of our codebase is "jellyfish" (no internal skeleton), only 2% is "vertebrate" (Rust files with real type systems), and zero files are "spiders" (the missing body plan).
+
+The interesting part: these tools generalize. Replace code metrics with geographic data (business licenses, 911 calls, census data, health inspections) and you can measure extraction patterns around geographically bounded communities.
+
+Falsifiable hypothesis: extraction businesses cluster disproportionately at the boundary of communities that can't easily relocate (reservations, public housing zones, etc.).
+
+All data sources are public (BIA, CDC WONDER, CFPB, state ABC records). The tools are open source.
+
+github.com/ecoPrimal/whitePaper
+
+Technical details:
+- `vitruvian-evolve.py`: Shannon entropy + sigmoid → evolutionary body plan classification
+- `homunculus.py`: sensitivity mapping (churn, connectivity, recency) → pressure/jam detection
+- `trig-view.py`: atan2 projection → SOHCAHTOA angular analysis (65% of files at 90°, tan=∞)
+- `sideview.py`: 3-axis projection (distance, direction, disposition)
+- `klein-evolve.sh`: self-sorting Klein bottle loop (output → input → delta detection)
+
+Looking for feedback on the methodology and whether spatial-extraction-pattern analysis has legs as a framework.

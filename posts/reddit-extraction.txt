@@ -1,0 +1,43 @@
+TITLE: A falsifiable hypothesis about extraction patterns near reservation borders — with open-source measurement tools
+
+SUBREDDITS: r/dataisbeautiful, r/IndianCountry, r/sociology, r/urbanplanning, r/publichealth
+
+---
+
+**Hypothesis:** Metabolic extraction businesses (liquor stores, payday lenders, opioid distributors, gambling) cluster disproportionately at the boundary of geographically bounded communities that cannot easily relocate.
+
+**Falsifiable.** The data is public. We're asking someone to prove us wrong.
+
+**Background:** We built a set of open-source tools to measure "extraction patterns" in complex systems — originally for analyzing an 11-million-line codebase. The tools use Shannon entropy and sigmoid classification to identify metabolic sinks (things that consume without producing), pressure points (tension building without decomposition), and parasitic patterns (extraction from captive dependents).
+
+The tools found 30 metabolic sinks in our codebase. All 30 were correct sinks (tests and deploys). Zero parasitic patterns. The system was built clean.
+
+Then we asked: **what if you point these tools at geographic data instead of code?**
+
+Replace "import count" with "business licenses issued." Replace "file age" with "time since last health inspection." Replace "git churn" with "911 call frequency." The math is the same.
+
+**The data sources (all public):**
+- BIA reservation boundary shapefiles (bia.gov)
+- CDC WONDER opioid prescription density (wonder.cdc.gov)
+- CFPB payday lender registry (consumerfinance.gov)
+- State alcohol outlet licensing records (state ABC boards)
+- Census tract demographics (census.gov)
+
+**The measurement:**
+Run a spatial correlation between extraction business density (per capita, within 5 miles of boundary) and the regional average. If the hypothesis is wrong, the correlation won't be there.
+
+**The tools (open source):**
+- `homunculus.py` — sensitivity mapping, pressure detection, jam detection
+- `trig-view.py` — angular projection (SOHCAHTOA decomposition)
+- `sideview.py` — distance, direction, disposition axes
+- `vitruvian-evolve.py` — evolutionary stage classification
+
+Source: github.com/ecoPrimal/whitePaper
+
+**We're not claiming expertise on indigenous policy.** We're filing an amicus brief — a friend-of-the-court perspective from people who build measurement tools. The hypothesis is falsifiable. The data is public. If we're wrong, publish the correction and we'll cite you.
+
+If we're right — and anyone who has driven to a reservation already knows the answer — then the tools exist to document it rigorously, reproducibly, and with public data that anyone can verify.
+
+---
+
+*Wave 178. ORCID 0009-0004-2141-0321. Hypothesis falsifiable. Tools open source.*
